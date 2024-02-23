@@ -9,15 +9,19 @@ class Person:
 
 class Company:
     MainType = "company"
+    CEO= 'Vadim'
 
     def __init__(self, name, location, field):
         self.name = name
         self.location = location
         self.field = field
         self.Employees = []
+        
     
     def getName(self):
         return self.name
+    
+
     
     def getLocation(self):
         return self.location
